@@ -1,0 +1,103 @@
+header {
+	margin-top: 1.5%;
+}
+
+.gallery {
+	padding: .5vw;
+	font-size: 0;
+	flex-wrap: wrap;
+	flex-direction: column;
+	flex-flow: row wrap;
+	display: flex;
+	margin-top: -3% !important;
+}
+
+.gallery div {
+	flex: auto;
+	width: 250px;
+	margin: .2vw;
+}
+
+.gallery div img {
+	width: 100%;
+	height: auto;
+}
+
+.text-mobile {
+	display: none;
+}
+
+.img-container {
+	margin: 0;
+}
+
+.mobile-text {
+	display: none;
+}
+
+.imgtext {
+    display:inline-block;   
+    position:relative;
+ 
+}
+
+.imgtext form a .opacity:hover {
+	opacity: 0.2;
+	// display: none;
+}
+
+.imgtext span a{
+	text-decoration: none; 
+	color: #464646;
+}
+
+.imgtext span:hover .opacity{
+	// background: #fff;
+	opacity: 0.8;
+	transition: width 5s;
+}
+
+.imgtext{text-align: center;}
+
+.imgtext span:hover,
+.imgtext:hover span {
+    display:inline-block;
+    position:absolute;
+    top:44.5%;   
+    left:39%;
+    transition: 0.3s;
+
+    padding: 3px;
+
+     
+    /* Оформление текста */
+    color:#FFF;
+    font-family:Font;
+    font-size:10px; 
+}
+
+@media only screen and (max-width: 414px) {
+.topnav a {
+	outline:none;
+}
+
+.header {
+	display: none;
+}
+
+span:hover {
+	display: none;
+}
+
+.text-mobile {
+	display: block;
+	width: 100%;
+	text-align: center;
+}
+
+.mobile-text {
+	display: block;
+	text-align: center;
+}
+}
+

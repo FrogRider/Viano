@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="en">
+	<head>
+
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+	<link href="https://fonts.googleapis.com/css?family=Kumar+One+Outline|Raleway" rel="stylesheet">
+	<link rel="stylesheet" href="css/main.css" />
+	<!-- <link rel="stylesheet" href="css/carousel.css"> -->
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+
+	<title>Viano</title>
+	</head>
+	<body>
+	
+	<div class="container-fluid">
+		
+		<header>
+				<div class="row web" style="text-align: left; margin-top: 2%;"> 
+					<div class="col-md-1"> <a href="index.html"><img src="img/cross.svg" class="ico" alt=""></a></div>
+					<div class="col-md-9"></div>
+					<!-- <div class="col-md-1" style="text-align: right;"></div>  -->
+					<div class="col-md-2" style="text-align: right;">
+						<!-- <a href="#"><img src="img/instagram.svg" style="margin-right: 10%" alt="Bē" class="ico"></a> 
+						<a href="#"><img src="img/facebook.svg" style="margin-right: 10%" alt="Bē" class="ico"></a> 
+						<a href="#"><img src="img/behance.svg" alt="Bē" class="ico"></a> -->
+					</div>
+				</div>
+				<div class="row mobile-header">
+						<div class="topnav">
+						  <a href="index.html" class="active"><img src="img/cross.svg" class="ico" alt=""></a>
+						  <div id="myLinks">
+						    <a href="contacts.html">Contact</a>
+							<a href="about.html">About</a>
+							<a href="index.html">Gallery</a>
+							<a href="animation.html">Animation</a>
+						  </div>
+						  <!-- <a href="javascript:void(0);" class="icon" onclick="menu()"> -->
+						    <h6>Menu</h6>
+						  </a>
+						</div>
+				</div>
+			</header>
+			<br><br>
+				<br>
+					
+			<form action="#" method="_POST" onsubmit="success();return false">
+				<label for="fname">First Name</label> 
+				<input type="text" id="fname" name="firstname" placeholder="Your name.." required>
+				<label for="lname">Last Name</label>
+				<input type="text" id="lname" name="lastname" placeholder="Your last name.." required>
+				<label for="lname">Email</label>
+				<input type="text" id="email" name="email" placeholder="Your email.." required>
+				<div class="alert alert-success" role="alert" id="sucess" style="display: none;">
+ 					Message sent successfully
+				</div>
+				<label for="subject">Subject</label>
+				<textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+				<input type="submit" value="Submit">
+			</form>
+		
+	</div>
+
+	<div class="socials">
+		<a href = "" target="_blank"><img src="img/telegram.svg" class="ico pic skype" alt=""></a>
+		<a href = "https://www.instagram.com/vianogroup/" target="_blank"><img src="img/instagram.svg" class="ico pic" alt="Inst"></a>
+		<a href = "http://fb.me/Groupviano" target="_blank"><img src="img/facebook.svg" class="ico pic" alt="Fb"></a>
+		<a href = "https://www.behance.net/Vian0" target="_blank"><img src="img/behance.svg" class="ico pic" alt="Be"></a>
+		<a href = "" target="_blank"><img src="img/skype.svg" class="ico pic skype" alt=""></a>
+		<p class="texxt">: Skype nick</p>
+	</div>
+	<script>var success = function(){
+		$("#fname").val("");
+		$("#lname").val("");
+		$("#email").val("");
+		document.getElementById('sucess').style.display='block';
+	}</script>
+	<script src = "js/dropdown-menu.js"></script>
+	<script src="js/contacts.js"></script>
+	<script src="js/antiload.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+	</body>
+</html>
+

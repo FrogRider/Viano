@@ -1,0 +1,54 @@
+$gray: #666;
+
+#infoBlock{
+	width: 60vw;
+	height: 100px;
+	// background: $gray;
+	margin: auto;
+	font-size: 14px;
+}
+
+.map{
+  width: 50vw; 
+  float: left; 
+  margin-top: 45% !important;
+} 
+
+.infoImage img{
+	width: 35%;
+	height: 150%;
+	float: left;
+}
+
+.infoText{
+	float: right;
+	width: 65%;
+}
+
+.infoText p{
+	padding-left: 13%;
+}
+
+@media only screen and (max-width: 514px) {
+#infoBlock{
+	width: 90vw;
+	margin: auto;
+}
+
+.infoImage img{
+	width: 99.5%;
+	height: auto;
+	float: left;
+}
+
+.infoText{
+	float: left;
+	width: 99.5%;
+	// margin: auto;
+}
+
+.infoText p{
+	padding-left: 0;
+}
+
+}

@@ -1,0 +1,14 @@
+@font-face {
+    font-family: Font;
+    // src: url(../font/SanFrancisco/SFUIText-Light.ttf);
+    src: url(../font/Kelson/KelsonSansLight.otf);
+   }
+
+   @font-face {
+    font-family: Font1;
+    src: url(../font/Kelson/KelsonSansBold.otf);
+   }
+
+body {
+	font-family: Font;
+}
